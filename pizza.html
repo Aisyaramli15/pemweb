@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Pemesanan</title>
+</head>
+<body>
+    <h1>Form Pemesanan MYPizza</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi in magnam laudantium suscipit architecto numquam odit veniam reiciendis qui error nam non, quas deserunt fugiat delectus, unde nesciunt ducimus iusto?</p>
+    <p>your information:</p>
+
+    <form method="post" action="http://blackgoosebistro.com/pizza.php">
+
+    <form>
+        <label for="customername">Nama :</label>
+        <input type="text" name="customername"
+        id="customername" required autofocus>
+        <br><br>
+
+        <label for="address">Alamat</label>
+        <input type="text" name="address"
+        id="address"required>
+        <br><br>
+
+        <label for="telephone">No Telephone</label>
+        <input type="number" name="telephone"
+        id="telephone"required>
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email"
+        id="email"required>
+        <br><br>
+
+        <label for="instructions">Deskripsi Pemesanan</label><br>
+        <textarea name="instructions"
+        id="instructions" placeholder="Tidak boleh lebih dari 400 karakter"
+        maxlength="400" cols="30" rows="5"required></textarea>
+
+        <h4>Desain Pizza Kamu</h4>
+        <p>Spek Pizza</p>
+
+        <p>Lapisan (Pilih satu)</p>
+        <input type="radio" name="crust"
+        id="crust1" value="original">
+        <label for="crust"required>original</label>
+        <br>
+
+        <input type="radio" name="crust"
+        id="crust2" value="Roti Gandum">
+        <label for="crust"required>Roti Gandum</label>
+        <br>
+
+        <input type="radio" name="crust"
+        id="crust3" value="Bebas Gluten">
+        <label for="crust"required>Bebas Gluten</label>
+        <br>
+
+        <input type="radio" name="crust"
+        id="crust4"value="keju">
+        <label for="crust"required>Keju</label>
+        <br>
+
+        <p>Topping (bisa lebih dari 1):</p>
+        <input type="checkbox" name="toppings[]"
+        id="toppings1" value="sosis"checked>
+        <label for="toppings1">Sosis</label>
+        <br>
+
+        <input type="checkbox" name="toppings[]"
+        id="toppings2" value="Daging">
+        <label for="toppings2">Daging</label>
+        <br>
+
+        <input type="checkbox" name="toppings[]"
+        id="toppings3" value="Saus sambal">
+        <label for="toppings3">Saus sambal</label>
+        <br>
+
+        <input type="checkbox" name="toppings[]"
+        id="toppings4" value="saus tomat">
+        <label for="toppings4">Saus tomat</label>
+        <br>
+
+        <label for="number">Jumlah Pizza</label>
+        <select name="number" id="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br>
+        <input type="submit" value="Pesan sekarang!">
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+</html>
