@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>Layout Html 5</title>
+    <style>
+        section{
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .g1{
+            height: 70px;
+            margin-right: 6px;
+            border: 2px solid black;
+        }
+        .g2{
+            height: 70px;
+            border: 2px solid black;
+        }
+         a i {
+            font-size: 40px; 
+            color: black; 
+            text-align: center;
+    }
+        
+    </style>
+</head>
+<body>
+    <fieldset style="margin: 0px 250px;">
+        <legend>I4F - Directory Profile Page</legend>
+        <header>
+            <div style="display: flex; justify-content: space-between;">
+                <div style="border: 2px solid black; padding: 10px; margin-left: 20px;">
+                 <img src="anyaanya.jpg" width="100px " alt="">
+                </div>
+                <div style="margin: 0px 70px 0px 20px;">
+                 <h1 style="line-height: 10px;">Profile Name</h1>
+                 <h3>Anya Forger</h3>
+                 <p>Alamat : Jepang</p>
+                 <p>Email : <a href="mailto:azzahrasyaa1705@gmail.com">azzahrasyaa1705@gmail.com</a></p>
+                 <p>Telephone : <a href="tel:085283523205">085283523205</a></p>
+                </div>
+                <div style="text-align: center;">
+                 <h3><u>Sosmed</u></h3>
+                 <div style="font-size: 40px; color: black;">
+
+                 </div>
+                 <a href="https://www.instagram.com/aisyzhrr_/profilecard/?igsh=NnkyOG41Z2FlaTdj">ig:aisyzhrr_</a><br>
+                 <a href="https://www.tiktok.com/@aisyaazhr17?_t=8qoVm0MUNNq&_r=1">tiktok:@aisyaazhr17</a><br>
+                </div>
+                </div>
+        </header>
+        <main style="padding: 40px;">
+            <article>
+                <section>
+                    Anya Forger adalah seorang anak angkat dari Loid Forger dan Yor Forger dalam serial animasi Spy X Family yang mempunyai kemampuan dalam membaca pikiran orang lain atau telepati.Dia juga merupakan seorang siswi di sekolah Eden Academy yang merupakan bagian dari Cecile Hall. Anya adalah gadis kecil yang mengaku usianya sudah 6 tahun. Ia diadopsi oleh Twilight di sebuah panti asuhan terpencil. Anya adalah anak hasil eksperimen yang tidak disengaja oleh sebuah organisasi misterius.
+                    Ia dipaksa belajar menggunakan kekuatannya yaitu membaca pikiran orang lain.
+                </section>
+                <section>
+                    Seperti yang sudah dikatakan di poin sebelumnya, Anya Forger memiliki kekuatan membaca pikiran. Masih belum diketahui secara detail mengenai sumber kemampuan Anya tersebut. Namun kemampuan ini membuat Anya memiliki kepribadian yang unik.
+                    Berkat kemampuan telepati itu pula, Anya mengetahui bahwa sang ayah angkat, Loid Forger adalah seorang agen rahasia. Begitu pula sang ibu angkat, Yor Forger yang merupakan seorang pembunuh bayaran.
+                </section>
+            </article>
+        </main>
+        <footer>
+            <div style="display: flex; justify-content: center;">
+                <fieldset>
+                    <legend>Youtube Embed</legend>
+                    <iframe width="200" src="https://www.youtube.com/embed/t1elkPsDoOI?si=8SrXUpI75UGINP5d" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </fieldset>
+                <fieldset>
+                    <legend>Blog Thumbnail</legend>
+                    <div style="display: flex; justify-content: center;">
+                        <div>
+                            <a href="https://www.deviantart.com/franapr/art/Anya-forger-Spy-x-Family-947462851">
+                                <img src="https://th.bing.com/th/id/OIP.azWA1JdloC_IveyYeulcQwHaKT?w=123&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Thumbnail" class="g1">
+                            </a>
+                        </div>
+                       <div>
+                        <a href="https://www.uhdpaper.com/2022/03/spy-x-family-anya-loid-yor-4k-3630g.html">
+                            <img src="https://th.bing.com/th/id/OIP.QXYKQLQS3YO8SauGWUNPIwHaEK?w=281&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Thumbnail" class="g2">
+                        </a>
+                       </div>
+                    </div>
+                    <div style="display: flex; justify-content: center;">
+                        <div>
+                            <a href="https://www.deviantart.com/franapr/art/Anya-forger-Spy-x-Family-947462851">
+                                <img src="https://th.bing.com/th/id/OIP.azWA1JdloC_IveyYeulcQwHaKT?w=123&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Thumbnail" class="g1">
+                            </a>
+                        </div>
+                       <div>
+                        <a href="https://www.uhdpaper.com/2022/03/spy-x-family-anya-loid-yor-4k-3630g.html">
+                            <img src="https://th.bing.com/th/id/OIP.QXYKQLQS3YO8SauGWUNPIwHaEK?w=281&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Thumbnail" class="g2">
+                        </a>
+                       </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                     <legend>Attachments</legend>
+                       <table cellpadding="5">
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i></td>
+                            <td><a href="anyaanya.jpg" download="Foto Anya Forger">Anya Forger</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i></td>
+                            <td><a href="anyaanya.jpg" download="Foto Anya Forger">Spy X Family</a></td> 
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i></td>
+                            <td><a href="anyaanya.jpg" download="Profile Anya Forger">Profile Anya Forger</a></td>   
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i></td>
+                            <td><a href="anyaanya.jpg" download="Foto Anya ">Foto Anya</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i></td>
+                            <td><a href="anyaanya.jpg" download="Youtube anya">YouTube Anya</a></td>
+                        </tr>
+                       </table>
+                </fieldset>
+            </div>
+        </footer>
+    </fieldset>
+</body>
+</html>
